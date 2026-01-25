@@ -5,7 +5,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project ID"
-  default     = "project-f6a0efb4-f01f-4835-8ba" # الـ ID بتاعك
+  default     = "project-f6a0efb4-f01f-4835-8ba"
 }
 
 variable "zone" {
