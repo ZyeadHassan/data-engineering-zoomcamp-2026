@@ -33,8 +33,8 @@ resource "google_storage_bucket" "demo-bucket" {
   }
 }
 
-# لإنشاء Dataset للـ BigQuery
+
 resource "google_bigquery_dataset" "demo_dataset" {
-  dataset_id = var.bq_dataset_name # ده الاسم اللي هيظهرلك في GCP Console
-  location   = var.location        # لازم تكون نفس منطقة الـ Bucket عشان تتجنب مشاكل نقل البيانات
+  dataset_id = var.bq_dataset_name
+  location   = var.location
 }
