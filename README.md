@@ -27,7 +27,7 @@ This project leverages a diverse set of tools to cover the entire data lifecycle
 
 The repository is organized into modules, each focusing on a specific pillar of Data Engineering:
 
-* **[Module 01: Containerization & IaC](./01-docker-terraform/):** Setting up the foundation with Docker, Terraform, and PostgreSQL.
+* **[Module 01: Containerization & IaC](https://github.com/ZyeadHassan/data-engineering-zoomcamp-2026/tree/main/Module%2001%3A%20Containerization%20%26%20IaC):** Setting up the foundation with Docker, Terraform, and PostgreSQL.
 * **[Module 02: Workflow Orchestration](https://github.com/ZyeadHassan/data-engineering-zoomcamp-2026/tree/main/02-workflow-orchestration):** Automating data ingestion and movement to the cloud.
 * **[Module 03: Data Warehouse](https://github.com/ZyeadHassan/data-engineering-zoomcamp-2026/tree/main/Module%203%3A%20Data%20Warehouse%20(BigQuery)):** Deep dive into BigQuery optimization, performance tuning, and cost management.
 * **[Module 04: Analytics Engineering](./04-analytics-engineering/):** Data modeling and documentation using dbt.
